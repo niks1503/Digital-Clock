@@ -42,7 +42,7 @@ main {
         bottom: 0;
         text-align: center;
         color: white;
-        background-color: #080686;
+        background-color: #392401;
         opacity: 0.8;
       }
     }
@@ -61,6 +61,18 @@ main {
       opacity: 0.8;
       font-size: xxx-large;
       font-weight: bold;
+    }
+    .am_pm {
+      position: relative;
+
+      .am-pm {
+        position: absolute;
+        bottom: 0;
+        background-color: rgb(37, 66, 81);
+        opacity: 1;
+        padding: 3px 5px;
+        color: rgb(12, 10, 4);
+      }
     }
   }
 }
